@@ -1,0 +1,32 @@
+※ SQL 작성시 주의사항!
+
+1. SQL은 대소문자를 구분하지 않습니다.
+예 : SELECT ENAME, SAL, FROM EMP;
+       select ename, sal, from emp;
+ -> 같은 결과가 나옵니다.
+	
+
+2. SQL은 한줄로 작성하지 말고, 절은 라인으로 분리해서 작성한다.
+	SELECT절
+	FROM절
+	
+
+3. 들여쓰기를 사용해서  SQL의 가독성을 높인다. 
+select ename, sal
+	 from emp ; 
+	 where
+	 group by
+	 having
+  	 order by
+
+
+※ 참고사항 (툴의 명령어)
+
+- 결과 화면의 가로 사이즈 조절하는 명령어
+	 set lines 300 SQLPLUS 라는 툴의 명령어이고  SQL 은 아니다.
+	
+- 결과 화면에서 세로 사이즈 조절하는 명령어
+	 set pages 400
+	
+- / 하고 엔터를 치면 방금 수행했던 SQL을 다시 실행할 수 있다. 
+

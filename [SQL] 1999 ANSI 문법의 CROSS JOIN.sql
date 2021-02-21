@@ -1,14 +1,14 @@
 
-*1999 ansi ¹®¹ıÀÇ cross Á¶ÀÎ ÀÌ¶õ?
+* 1999 ansi ë¬¸ë²•ì˜ cross ì¡°ì¸ ì´ë€?
 
-where Àı¾øÀÌ Á¶ÀÎÇØ¼­ ÀüÃ¼¸¦ ´Ù Á¶ÀÎÇÏ´Â Á¶ÀÎ ¹®¹ıÀÔ´Ï´Ù.
+where ì ˆì—†ì´ ì¡°ì¸í•´ì„œ ì „ì²´ë¥¼ ë‹¤ ì¡°ì¸í•˜ëŠ” ì¡°ì¸ ë¬¸ë²•ì…ë‹ˆë‹¤.
 
-	1. ¿À¶óÅ¬ Á¶ÀÎ ¹®¹ı
+	1. ì˜¤ë¼í´ ì¡°ì¸ ë¬¸ë²•
 	select e.ename, d.loc
 		from emp e, dept d
         where e.deptno = d.deptno;
 		
-	2. 1999 ansi ¹®¹ı
+	2. 1999 ansi ë¬¸ë²•
 	select e.ename, d.loc
 		from emp e cross join dept d;
         
